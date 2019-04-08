@@ -1,14 +1,13 @@
 @charset "utf-8";
 
 body {
-    background-image: url(https-::cdn.pixabay.com:photo:2016:07:05:08:07:rose-1498268_1280.jpg/);
+    background-image: url("plants-3343695_1920.jpg");
     background-size: cover;
     font-family: sans-serif;
     min-width: 1024px;
 }
 
 header {
-    background-color: #FFCCFF;
     height: 90px;
     border-bottom: 5px dotted purple;
     min-width: 1024px;
@@ -16,7 +15,6 @@ header {
 }
 
 footer {
-    background-color: pink;
     height: 100px;
     border-top: 5px dotted purple;
 }
@@ -41,7 +39,7 @@ h1 {
 }
 
 #selfIntroduction {
-    color: #666666;
+    color: whitesmoke;
     text-align: center;
     line-height: 4;
     height: 200px;
@@ -50,36 +48,32 @@ h1 {
 }
 
 .mySkill {
-    position: absolute;
-    top: 680px;
-    left: 345px;
-
     color: red;
     text-align: center;
-    background-color: #9966ff;
-    width: 400px;
     margin-bottom: 0;
-    padding: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
 }
 
 
 .skills {
     margin-bottom: 440px;
-    margin-top: 200px;
+    margin-top: 20px;
 }
 
 .skill {
+    color: yellow;
     display: inline-block;
     float: left;
     width: 20%;
     text-align: center;
     font-size: 20px;
     height: 60px;
-    background-color: antiquewhite;
+    border-top: 3px dotted #6666ff;
 }
 
 .evaluation {
-    color: orange;
+    color: orangered;
     border-bottom: 3px dotted #6666ff;
 }
 
